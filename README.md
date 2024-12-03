@@ -11,7 +11,7 @@
 -  [3. Details of the chosen SDG and its integration into the project](#chosen-sdg)
 -  [4. Instructions for running the program](#instruc-run) 
 
-## <a id = "proj-overview"> I. Project Overview</a> 
+## <a id = "proj-overview"> 📖I. Project Overview</a> 
 <b>TrashFormed</b> is a Java-based console application aimed at promoting responsible recycling habits and sustainable waste management. The project supports two types of users:
 - <b>Regular Users</b>: They can register, log in, and track their recycling efforts by adding waste items categorized into types (plastic, organic, metal, glass, and electronic). Users can also view a summary of their recycling contributions and access helpful recycling tips to ensure proper disposal.
 - <b>Admins</b>: They have the ability to log in and manage recycling tips in the system, allowing them to add or delete tips tailored to each waste type.
@@ -19,7 +19,7 @@
 The application integrates Object-Oriented Programming (OOP) principles and uses a MySQL database to store information, including user details, recycling tips, waste items, and recycling logs. TrashFormed aligns with Sustainable Development Goal (SDG) 12: Responsible Consumption and Production, by encouraging users to adopt sustainable waste practices.
 <br>
 
-## II. <a id = "explanation-oop">Explanation of How OOP Principles Were Applied</a>
+## <a id = "explanation-oop"> 📌II. Explanation of How OOP Principles Were Applied</a>
 1. <b>Encapsulation:</b>
 - Data and methods are bundled together into cohesive classes, ensuring that implementation details are hidden and accessed only through defined methods.
   - For example, the WasteItem class encapsulates properties like itemId, userId, itemName, quantity, and wasteType. These fields are private and accessed via getter and setter methods.
@@ -37,7 +37,7 @@ The application integrates Object-Oriented Programming (OOP) principles and uses
 - Different classes such as User, WasteItem (and its subclasses), DatabaseManager, and Main are responsible for specific aspects of the program, ensuring that functionality is divided into manageable modules. This promotes clean code and makes maintenance easier.
 <br>
 
-## III. <a id = "chosen-sdg">Details of the chosen SDG and its integration into the project</a>
+## <a id = "chosen-sdg"> ✔️III. Details of the chosen SDG and its integration into the project</a>
 Chosen SDG: <b>Sustainable Development Goal 12: Responsible Consumption and Production</b>
 - This goal emphasizes the need to ensure sustainable consumption and production patterns, focusing on reducing waste generation, promoting recycling, and adopting environmentally conscious practices.
 <b>Integration to TrashFormed</b>:
@@ -49,7 +49,7 @@ Chosen SDG: <b>Sustainable Development Goal 12: Responsible Consumption and Prod
 6. <b>Alignment with the SDG Goals</b>: By empowering users to manage and reduce waste, TrashFormed directly supports SDG 12.5: “Substantially reduce waste generation through prevention, reduction, recycling, and reuse.”
 <br>
 
-## IV. <a id = "instruc-run">Instructions for running the program</a>
+## <a id = "instruc-run"> ▶️IV. Instructions for running the program</a>
 
  
 
