@@ -8,7 +8,8 @@
 -  [1. A brief project overview](#proj-overview)
 -  [2. Explanation of how OOP principles were applied](#explanation-oop)
 -  [3. Details of the chosen SDG and its integration into the project](#chosen-sdg)
--  [4. Instructions for running the program](#instruc-run) 
+-  [4. Instructions for running the program](#instruc-run)
+-  [5. Contributor](#contrib)
 
 ## <a id = "proj-overview"> 📖I. Project Overview</a> 
 <b>TrashFormed</b> is a Java-based console application aimed at promoting responsible recycling habits and sustainable waste management. The project supports two types of users:
@@ -69,6 +70,21 @@ Chosen SDG: <b>Sustainable Development Goal 12: Responsible Consumption and Prod
 6. <b>Start Using TrashFormed:</b>
    - Register a user or admin account.
    - Log in to explore features like adding waste items, viewing summaries, or managing recycling tips.
+
+---
+
+##  <a id = "contrib"> 👷‍ Contributor </a> <br>
+
+| Name | Role | E-mail | 
+| --- | --- | --- | 
+| Camba, Ralph Vincent A.| Developer | rvcamba12@gmail.com | 
+
+<br>
+
+- Courses:
+  - Courses: CS 211: Object Oriented Programming | IT 211: Database Management System
+- Course Facilitators:
+  - Ms. Fatima Marie P. Agdon | Mr. Owen Patrick Falculan
 
  
 
