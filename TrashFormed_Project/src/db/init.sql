@@ -3,8 +3,8 @@ CREATE DATABASE trashformed_db;
 CREATE TABLE Users(
     user_id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) UNIQUE NOT NULL,
-    password VARCHAR(50) NOT NULL,
-    role VARCHAR(10) NOT NULL
+    user_password VARCHAR(50) NOT NULL,
+    user_role VARCHAR(10) NOT NULL
 );
 
 CREATE TABLE WasteItems(
