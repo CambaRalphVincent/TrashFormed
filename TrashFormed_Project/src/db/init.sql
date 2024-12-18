@@ -7,7 +7,7 @@ CREATE TABLE Users(
     role VARCHAR(10) NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS WasteItems (
+CREATE TABLE WasteItems (
     item_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
     item_name VARCHAR(100) NOT NULL,
@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS WasteItems (
     INDEX(waste_type) -- Create index on waste_type
 );
 
-CREATE TABLE IF NOT EXISTS RecyclingTips (
+CREATE TABLE RecyclingTips (
     tip_id INT AUTO_INCREMENT PRIMARY KEY,
     waste_type VARCHAR(50) NOT NULL,
     tip TEXT NOT NULL,
